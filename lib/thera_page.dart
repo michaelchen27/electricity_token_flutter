@@ -128,6 +128,7 @@ class _TokenScreenState extends State<TheraPage> {
                                 SizedBox(width: 16),
                                 Expanded(
                                   child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: <Widget>[
                                       createRichText(1, [
                                         TextSpan(
